@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Moka Beach Comforts
+
+quero criar um site de uma marca de puffes/almofadas de praia chamado Moka e quero que o site seja para vender os diferentes puffes e que de para comprar por visa ,mbway e revolut . Tem que ser um site sóbrio , bonito e com aspeto fidedigno . As cores serão verde e laranja e branco. Os puffes são como as trippis na imagem.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/68c41928-8f01-413f-a472-094a37c3b7d1).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
