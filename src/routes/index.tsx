@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import heroImage from "@/assets/moka-hero.jpg";
+import praiaAsset from "@/assets/moka-praia.jpg.asset.json";
 import orangeImage from "@/assets/moka-laranja.jpg";
 import greenImage from "@/assets/moka-verde.jpg";
 
@@ -78,10 +79,10 @@ function Index() {
     </header>
 
     <section id="inicio" className="relative min-h-[760px] overflow-hidden sm:min-h-[820px]">
-      <img src={heroImage} alt="Puffe Moka Maré às riscas verdes numa praia atlântica" width={1536} height={1024} className="absolute inset-0 h-full w-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/30 to-transparent" />
+      <img src={praiaAsset.url} alt="Puffe Moka Maré às riscas verdes na areia, frente ao mar" className="absolute inset-0 h-full w-full object-cover object-bottom" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/75 via-primary/30 to-transparent" />
       <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-end px-5 pb-16 pt-32 text-primary-foreground sm:min-h-[820px] sm:items-center sm:px-8 sm:pb-0">
-        <div className="max-w-xl"><p className="mb-5 text-xs font-semibold uppercase tracking-[0.22em]">Feito para levar. Difícil de deixar.</p><h1 className="font-display text-6xl leading-[0.94] tracking-normal sm:text-8xl">O seu lugar<br />ao sol.</h1><p className="mt-6 max-w-md text-base leading-7 text-primary-foreground/85 sm:text-lg">Conforto generoso, tecido resistente e uma pega para ir consigo da varanda até à praia.</p><Button asChild size="lg" className="mt-8 h-12 rounded-none bg-accent px-7 text-accent-foreground hover:bg-accent/90"><a href="#colecao">Descobrir a coleção <ArrowRight /></a></Button></div>
+        <div className="max-w-xl"><p className="mb-5 text-xs font-semibold uppercase tracking-[0.22em]">Feito para levar. Difícil de deixar.</p><h1 className="font-display text-5xl leading-[1.02] tracking-normal sm:text-7xl">O verão pede praia,<br />a praia pede Moka.</h1><p className="mt-6 max-w-md text-base leading-7 text-primary-foreground/85 sm:text-lg">Conforto generoso, tecido resistente e uma pega para ir consigo da varanda até à praia.</p><Button asChild size="lg" className="mt-8 h-12 rounded-none bg-accent px-7 text-accent-foreground hover:bg-accent/90"><a href="#colecao">Descobrir a coleção <ArrowRight /></a></Button></div>
       </div>
     </section>
 
